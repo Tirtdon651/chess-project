@@ -1,0 +1,33 @@
+﻿  Background.cpp
+  Bishop.cpp
+  Board.cpp
+C:\Users\HP.LAPTOP-PQLNI7NO\Desktop\chess-game\chess\Board.cpp(48,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\HP.LAPTOP-PQLNI7NO\Desktop\chess-game\chess\Board.cpp(51,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\HP.LAPTOP-PQLNI7NO\Desktop\chess-game\chess\Board.cpp(62,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\HP.LAPTOP-PQLNI7NO\Desktop\chess-game\chess\Board.cpp(68,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\HP.LAPTOP-PQLNI7NO\Desktop\chess-game\chess\Board.cpp(135,21): warning C4018: '<': signed/unsigned mismatch
+  BoardPiece.cpp
+  Entity.cpp
+  Figure.cpp
+  Game.cpp
+C:\Users\HP.LAPTOP-PQLNI7NO\Desktop\chess-game\chess\Board.cpp(143,21): warning C4018: '<': signed/unsigned mismatch
+C:\Users\HP.LAPTOP-PQLNI7NO\Desktop\chess-game\chess\Game.cpp(7,57): warning C4244: 'argument': conversion from 'T' to 'unsigned int', possible loss of data
+C:\Users\HP.LAPTOP-PQLNI7NO\Desktop\chess-game\chess\Game.cpp(7,57): warning C4244:         with
+C:\Users\HP.LAPTOP-PQLNI7NO\Desktop\chess-game\chess\Game.cpp(7,57): warning C4244:         [
+C:\Users\HP.LAPTOP-PQLNI7NO\Desktop\chess-game\chess\Game.cpp(7,57): warning C4244:             T=float
+C:\Users\HP.LAPTOP-PQLNI7NO\Desktop\chess-game\chess\Game.cpp(7,57): warning C4244:         ]
+  King.cpp
+  Knight.cpp
+  main.cpp
+  Pawn.cpp
+  Queen.cpp
+  Rook.cpp
+  Generating Code...
+C:\Users\HP.LAPTOP-PQLNI7NO\Desktop\chess-game\chess\Game.cpp(7,50): warning C4244: 'argument': conversion from 'T' to 'unsigned int', possible loss of data
+C:\Users\HP.LAPTOP-PQLNI7NO\Desktop\chess-game\chess\Game.cpp(7,50): warning C4244:         with
+C:\Users\HP.LAPTOP-PQLNI7NO\Desktop\chess-game\chess\Game.cpp(7,50): warning C4244:         [
+C:\Users\HP.LAPTOP-PQLNI7NO\Desktop\chess-game\chess\Game.cpp(7,50): warning C4244:             T=float
+C:\Users\HP.LAPTOP-PQLNI7NO\Desktop\chess-game\chess\Game.cpp(7,50): warning C4244:         ]
+C:\Users\HP.LAPTOP-PQLNI7NO\Desktop\chess-game\chess\Knight.cpp(26): warning C4715: 'Knight::canBeat': not all control paths return a value
+C:\Users\HP.LAPTOP-PQLNI7NO\Desktop\chess-game\chess\Game.cpp(131): warning C4715: 'Game::onMouseClick': not all control paths return a value
+  chess.vcxproj -> C:\Users\HP.LAPTOP-PQLNI7NO\Desktop\chess-game\Debug\chess.exe
