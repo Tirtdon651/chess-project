@@ -10,9 +10,10 @@ const char* Rook::getName() {
 	return "ROOK";
 }
 
-bool Rook::canMove(BoardPiece* bp,Entity* b) {
+bool Rook::canMove(BoardPiece* bp, Entity* b) {
 	sf::Vector2i current = getPiece()->getId();
 	sf::Vector2i destination = bp->getId();
+	//RTTI 
 	Board *board = dynamic_cast<Board*>(b);
 	//legal rook move
 	if (current.x == destination.x ) {

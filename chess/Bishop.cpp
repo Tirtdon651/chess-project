@@ -12,13 +12,17 @@ const char* Bishop::getName() {
 
 bool Bishop::canMove(BoardPiece* bp, Entity* brd) {
 	Board *board = dynamic_cast<Board*>(brd);
+	//figure position
 	sf::Vector2i current = getPiece()->getId();
+	//figure destination
 	sf::Vector2i destination = bp->getId();
+	// if x == y - legal move
 	int x = abs(destination.x - current.x);
 	int y = abs(destination.y - current.y);
 	if (x == y)
 	{
 		//move is legal, now make sure no obstacles on the way
+		//direction of the movement
 		int dirX = (destination.x - current.x) / x;
 		int dirY = (destination.y - current.y) / x;
 		int i = current.x + dirX, j = current.y + dirY;
